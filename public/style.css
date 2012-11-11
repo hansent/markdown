@@ -17,6 +17,17 @@ p {
     color: #444;
 }
 
+
+
+
+.code-block {
+    background-color: #fcfcf9;
+    border-left: .2em solid #777;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    padding-left: 1em;
+}
+
 /*  
  ***********************************************
  * PYGMENTS CODE HIGHLIGHTING
