@@ -2,10 +2,11 @@ body {
     font-family: sans-serif;
     font-size: 1.4em;
     line-height: 1.5em;
-    padding-left: 6em;
-    padding-right: 6em;
-    padding-top: 3em;
-    padding-bottom: 10em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
 }
 
 h1 {
@@ -15,10 +16,8 @@ h1 {
 
 p {
     color: #444;
+    font-weight: 200;
 }
-
-
-
 
 .code-block {
     background-color: #fcfcf9;
@@ -27,6 +26,96 @@ p {
     padding-bottom: .1em;
     padding-left: 1em;
 }
+
+.container {width: 95%; float: left;}
+
+
+div {width: 100%;}
+
+    /* 1. 12 Column Grid 0px - Infinity 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    8.33333333333%
+    Span 2:    16.6666666667%
+    Span 3:    25.0%
+    Span 4:    33.3333333333%
+    Span 5:    41.6666666667%
+    Span 6:    50.0%
+    Span 7:    58.3333333333%
+    Span 8:    66.6666666667%
+    Span 9:    75.0%
+    Span 10:    83.3333333333%
+    Span 11:    91.6666666667%
+    Span 12:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 0px) {
+        
+        .row {
+            margin-left:-5px;
+        }
+        .col {
+            border-left-width:5px;
+        	padding:15px;
+        }
+        
+        
+        
+        /*
+        Add your semantic classnames in alongside their corresponding spans here. e.g.
+        
+        .span_3,
+        .my_semantic_class_name {
+            ...
+        }
+        */
+        
+        .span_1 {
+            width:8.33333333333%;
+        }
+        .span_2 {
+            width:16.6666666667%;
+        }
+        .span_3 {
+            width:25.0%;
+        }
+        .span_4 {
+            width:33.3333333333%;
+        }
+        .span_5 {
+            width:41.6666666667%;
+        }
+        .span_6 {
+            width:50.0%;
+        }
+        .span_7 {
+            width:58.3333333333%;
+        }
+        .span_8 {
+            width:66.6666666667%;
+        }
+        .span_9 {
+            width:75.0%;
+        }
+        .span_10 {
+            width:83.3333333333%;
+        }
+        .span_11 {
+            width:91.6666666667%;
+        }
+        .span_12 {
+            margin-left:0;
+            width:100%;
+        }
+    }
+
+1
+ @media screen and (max-width: 400px;) {
+
+ 	.highlight span {font-size: 0.5em}
+ }
+
 
 /*  
  ***********************************************
